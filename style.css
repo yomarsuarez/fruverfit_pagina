@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+/* Espacio para imagen de encabezado */
+
+header {
+    width: 100%;
+    height: 657px;
+}
+
+/* título de bienvenida */
+
+.section_title {
+    width: 100%;
+    height: 125px;
+}
+
+.title {
+    padding-right: 24px;
+    padding-left: 24px; 
+}
+
+.title h1 {
+    margin: 0;
+    text-align: center;
+    color: rgb(196, 134, 90);
+    font-family:sans-serif;  
+    font-weight: 400;
+    font-size: 38px;
+    white-space: pre-line;
+    letter-spacing: 0.023em;
+    line-height: 1.2;
+    overflow-wrap: break-word;
+}
+
+
+/* subtitulo con nombre de la empresa */
+
+.container_subtitle {
+    width: 100%;
+    height: 125px;
+}
+
+@media(max-width: 425px) {
+    .container_subtitle {
+        padding-top: 20px;
+    }
+}
+
+.subtitle  {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    color: rgb(89, 89, 89);
+    line-height: 1.4;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.091em;
+    font-weight: 400;
+    overflow-wrap: break-word;
+}
+
+
+/* contenedor principal */
+
+
+.container {
+    display: flex;
+    max-width: 100%;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.row {
+    display: flex;    
+    padding-left: 12px;
+    padding-bottom: 48px;
+    padding-right: 12px;
+    flex-basis: 100%;
+    flex-shrink: 1;
+    padding-top: 0px;
+    max-width: 100%;
+    font-size: 16px;
+}
+
+
+.col-sm-6 {    
+    display: flex;
+    justify-content: flex-start;  
+    align-items: center;
+    flex-shrink: 1;
+    box-sizing: border-box;
+    text-transform: none;
+    letter-spacing: normal;
+    max-width: 100%;
+}
+
+.img_fruit {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.content_fruit {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    letter-spacing: normal;
+}
+
+@media(max-width: 575px) {
+    .content_fruit {
+        padding-top: 20px;
+    }
+}
+
+.content_fruit h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1b1b1b;
+    line-height: 1.25;
+    margin: 0 0 24px;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.content_fruit p {
+    font-size: 16px;
+    color: rgb(94, 94, 94);
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.img_fruit {
+    order: -1;
+    vertical-align: middle;
+    width: auto;
+    max-width: 100%;
+}
+
+
+
+/* pie de página */ 
+
+footer {
+    background-color: rgb(51, 51, 51);
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+footer div {
+    min-width: 100%;
+    max-width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.footer_container1 {
+    padding-bottom: 24px;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer_container1 p {
+    color: rgb(247, 247, 247);
+    margin-bottom: 16px;
+    letter-spacing: 0.167em;
+    line-height: 1.5;
+    font-weight: 700;
+    overflow-wrap: break-word;
+    margin-top: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container_copyright {
+    display: grid;    
+    grid-template-columns: 50% 50%;
+    color: rgb(169, 169, 169);
+    font-size: 12px;
+    letter-spacing: 0.167em;
+    line-height: 1.5;
+    font-weight: 400;    
+}
+
+
+.copyright p {
+    text-align: start;
+}
+    
+
+.footer_godaddy p {
+    text-align: end;
+}
+
+span {
+    color: rgb(198, 135, 91);
+}
+
+
+/* icono de la página */
+
+
+.container_icon {
+    display: flex;
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    z-index: 9999;
+    right: 24px;
+    bottom: 24px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(198, 135, 91);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transform: translateZ(0px);
+    box-shadow: rgb(0 0 0 / 25%) 0px 3px 18px;
+    border-radius: 50%;
+}
+
+i {
+    font-size: 30px;
+    vertical-align: middle;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
