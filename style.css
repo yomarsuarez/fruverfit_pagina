@@ -1,10 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-/* Espacio para imagen de encabezado */
+/* Espacio para encabezado */
 
 header {
-    width: 100%;
-    height: 657px;
+    width: 100%;    
+    height: 80px;
+    background-color: rgb(51, 51, 51);
+    position: fixed;
+    padding-top: 20px;
+
+}
+
+
+.container_inicio {    
+    width: 100%;    
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    z-index: 9999;    
+    right: 24px;
+    top: 5%; 
+    justify-content: flex-end;       
+}
+
+.container_inicio_botones {
+    width: 30%;
+    right: 24px;
+    cursor: pointer;
+}
+
+.container_inicio_botones input {
+    margin-right: 10px; 
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;    
+    border: 2px solid #4CAF50; 
+    transition-duration: 0.4s;
+}
+
+.container_inicio_botones input:hover {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+/* imagen de encabezado */
+
+
+.imagen_header {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.imagen_header img {
+    width: 75%;
+    height: auto;
 }
 
 /* título de bienvenida */
@@ -23,7 +74,7 @@ header {
     margin: 0;
     text-align: center;
     color: rgb(196, 134, 90);
-    font-family:sans-serif;  
+    font-family: 'Montserrat', sans-serif; 
     font-weight: 400;
     font-size: 38px;
     white-space: pre-line;
@@ -47,7 +98,7 @@ header {
 }
 
 .subtitle  {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     color: rgb(89, 89, 89);
     line-height: 1.4;
@@ -110,7 +161,7 @@ header {
     font-size: 16px;
     align-items: center;
     text-align: center;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
     letter-spacing: normal;
 }
@@ -162,7 +213,7 @@ footer div {
     padding-left: 20px;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .footer_container1 {
@@ -183,7 +234,7 @@ footer div {
     font-weight: 700;
     overflow-wrap: break-word;
     margin-top: 0px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container_copyright {
@@ -211,8 +262,8 @@ span {
 }
 
 
-/* icono de la página */
 
+/* icono de la página */
 
 .container_icon {
     display: flex;
