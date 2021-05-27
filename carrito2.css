@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+
+header {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    height: auto;
+    background-color: #212529;
+    color: white;    
+}
+ 
+.container_img {
+    width: 20%;
+    height: 9%;
+    text-align: center;    
+}
+
+.container_img img {
+    width: 70%;    
+}
+
+.container_carrito td, 
+.container_carrito2 {
+    text-align: center;
+}
+
+.container_subtotal {
+    padding-bottom: 24px;    
+}
+
+.container_total {
+    display: flex;    
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 85px;
+}
+
+
+.container_compra {
+    display: flex;
+    justify-content: flex-end;
+    height: 50vh;
+}
+
+.container_compra button {
+    height: 10%;
+    width: 15%;
+    margin-top: 20px;
+    margin-right: 45px;    
+}
+
+.button_compra {        
+    display: block;
+    width: 25%;    
+    background: green;
+    color:inherit;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.button_compra a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {    
+    background-color: #212529;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    height: 70px;
+    align-content: center;    
+}
+
+footer p {
+    padding-top: 26px;
+}
+
+
+
